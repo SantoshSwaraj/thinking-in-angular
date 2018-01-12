@@ -1,0 +1,15 @@
+<html ng-app="current-date">
+        <head>
+            <script src="angular.js"></script>
+            <script src="DateTime.js"></script>
+        </head>
+        <body>
+            <div>
+                <div ng-controller="MainController">
+                    <h1>Current Date : {{currentDate}}</h1>
+                    <h2>Current Time : {{timeString}}</h2>
+                    <button type="button" ng-click="udateDateAndTime()">Click Me!</button>
+                </div>     
+            </div>
+        </body>
+    </html>
